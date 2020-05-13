@@ -11,3 +11,5 @@ Moreover, a for loop is a piece of logic that looks through the indexes.
 You can get it do many things with an if and else statement. 
 
 The code above is an example of that. It could be the for loops seem a little advanced right now. But trust me, once you get them down, you have added a big tool to your set. 
+
+To watch this code work. Open it on your browser and check out your developer console! It's pretty cooool :P 
