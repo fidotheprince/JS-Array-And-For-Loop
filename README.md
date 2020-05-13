@@ -1,10 +1,13 @@
-# Single-Page-App
-Using AJAX for a single page web app. I'm looking to adapt this code to WriterFlow 
+You can think of an array as a list of items. 
 
-WriterFlow in large part works as a single page MVC web application. 
+Each item is a data type. 
 
-Accordingly, I want to be able to construct a Model which is a 'random' prompt, and render that model on the same Index view. 
+Each item in the array can also be referred to as an index. 
 
-This means changing the url so I can access the right action without actually reloading the page. 
+Arrays in Javascript are 0 indexed meaning that the first list item is in position 0 NOT 1. 
 
-This is where AJAX comes in handy, and this is where this Single-Page-App will teach me how to do just that. 
+Moreover, a for loop is a piece of logic that looks through the indexes. 
+
+You can get it do many things with an if and else statement. 
+
+The code above is an example of that. It could be the for loops seem a little advanced right now. But trust me, once you get them down, you have added a big tool to your set. 
