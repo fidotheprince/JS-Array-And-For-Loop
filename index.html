@@ -1,6 +1,6 @@
 
-<!--button that initiates renderArray() function in script tag-->
-<button onclick= 'renderArray()'>Write's to console</button>
+
+<button onclick= 'renderArray()'>Write to console</button>
 
 
 
@@ -10,34 +10,27 @@
 
     function renderArray() {
 
+      
         var sentence = "This is a string in an array?";
-        //array of items
+
         var arr = [2, 4, 5, 6, sentence];
 
         for (var i=0; i <= arr.length; i++) {
+
+
             if(arr[i] >= 3) {
+
                 console.log("This is the number " + arr[i]);
+
             } else {
+
                 if (arr[i] == sentence) {
                     console.log(arr[i] + "...yes it is!!");
+                    
                 }
             }
         }
 
-    }
-
-   
-
-    function changeColor() {
-
-        var chosenColor = "red";
-
-        document.getElementById('newColor').style.color = chosenColor;
-    }
-
-    function addNumbers() {
-        var x = 3 + "3";
-        console.log(x);
     }
 
 </script>
